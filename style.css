@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    justify-content: center;
+    display:flex;
+   
+   
+}
+
+
+button{
+     border-radius: 10px;
+     border: none;
+      padding: 10px;
+      color: rgb(251, 252, 253); 
+      background-color: rgb(255, 164, 17);
+     
+      height: 48px;
+      width: 400px;
+}
+#pokemonName { 
+    background-color: rgb(250, 225, 171); 
+    border-radius: 10px;
+     color: rgb(2, 50, 20);
+     font-size: 3rem; 
+  
+    }
+button:hover{
+  background-color: rgb(248, 186, 86)
+}
+.container {
+    width: 600px;
+    height: 90vh;
+    box-shadow: 2px 2px 5px  rgb(211, 147, 17),
+                -2px -2px 15px  rgb(211, 147, 17);
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center horizontally */
+    justify-content:flex-start;
+    padding-top: 30px; /* Center vertically */
+}
+
+.title {
+    display: flex;
+    align-items: center; /* Ensures vertical alignment */
+    gap: 10px; /* Adds spacing between icon and text */
+}
